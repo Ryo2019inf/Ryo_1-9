@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 10px;
+}
+
+header {
+  height: 70px;
+  background-color: #080808;
+}
+
+main {
+  width: 960px;
+  margin: 40px auto;
+  display: flex;
+}
+
+.step-box {
+  width: 600px;
+  margin-right: 80px;
+  padding: 70px;
+  position: relative;
+  background-color: #eee;
+}
+
+.step-box:last-child {
+  margin-right: 0;
+}
+
+.step-img1 {
+  height: 180px;
+  width: 130px;
+  background-image: url(img/list_ryubi.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img2 {
+  height: 180px;
+  width: 130px;
+  background-image: url(img/list_sousou.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-img3 {
+  height: 180px;
+  width: 130px;
+  background-image: url(img/list_sonken.jpeg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-num {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: #c52e23;
+  color: rgb(7, 6, 5);
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 70px;
+  background-color: rgb(12, 12, 12);
+}
