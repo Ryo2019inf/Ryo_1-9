@@ -18,6 +18,7 @@ main {
   width: 600px;
   margin-right: 80px;
   padding: 70px;
+  bottom: 20px;
   position: relative;
   background-color: #eee;
 }
@@ -65,4 +66,14 @@ main {
 footer {
   height: 70px;
   background-color: rgb(12, 12, 12);
+margin-top: -40px;
 }
+@media screen and (max-width: 768px) {
+   main{
+display: block;
+ }
+
+ @media screen and (max-width: 768px) {
+  *{
+    margin: 5px -5px 20px;
+  }
